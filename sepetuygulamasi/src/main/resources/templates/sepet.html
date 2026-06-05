@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sepetim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style> body { background-color: #f8f9fa; } </style>
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <div class="card-header bg-dark text-white p-4 rounded-top-4 d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">🛍️ Alışveriş Sepetim</h3>
+                    <a th:href="@{/}" class="btn btn-sm btn-outline-light rounded-pill px-3">Alışverişe Dön</a>
+                </div>
+
+                <div class="card-body p-4 p-md-5">
+                    <div th:if="${aktifSepet == null or #lists.isEmpty(aktifSepet.siparisDetaylari)}" class="text-center py-5">
+                        <h4 class="text-muted mb-4">Sepetin şu an bomboş görünüyor.</h4>
+                        <a th:href="@{/}" class="btn btn-outline-primary btn-lg rounded-pill px-5 shadow-sm">Ürünleri Keşfet</a>
+                    </div>
+
+                    <div th:if="${aktifSepet != null and not #lists.isEmpty(aktifSepet.siparisDetaylari)}">
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle mb-0">
+                                <thead class="table-light">
+                                <tr>
+                                    <th scope="col" class="text-muted border-0 pb-3">Ürün Detayı</th>
+                                    <th scope="col" class="text-muted border-0 pb-3">Birim Fiyat</th>
+                                    <th scope="col" class="text-muted border-0 pb-3 text-center">Miktar</th>
+                                    <th scope="col" class="text-muted border-0 pb-3">Toplam</th>
+                                    <th scope="col" class="text-muted border-0 pb-3 text-end">İşlem</th>
+                                </tr>
+                                </thead>
+                                <tbody class="border-top-0">
+                                <tr th:each="detay : ${aktifSepet.siparisDetaylari}">
+                                    <td class="fw-bold fs-5 py-3" th:text="${detay.urun.urunAdi}">Ürün Adı</td>
+                                    <td class="py-3" th:text="${detay.urun.fiyat} + ' ₺'">0.00 ₺</td>
+                                    <td class="text-center py-3">
+                                        <span class="badge bg-secondary bg-opacity-10 text-dark border border-secondary border-opacity-25 rounded-pill px-3 py-2 fs-6" th:text="${detay.adet}">1</span>
+                                    </td>
+                                    <td class="fw-bold text-success py-3" th:text="${detay.urun.fiyat * detay.adet} + ' ₺'">0.00 ₺</td>
+                                    <td class="text-end py-3">
+                                        <form method="post" th:action="@{/urun-cikar}" class="d-inline">
+                                            <input type="hidden" name="detayId" th:value="${detay.detayId}" />
+                                            <button type="submit" class="btn btn-sm btn-outline-danger rounded-pill px-3">Sil</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <hr class="my-4 border-secondary opacity-25">
+
+                        <div class="row align-items-center mt-4">
+                            <div class="col-md-6 mb-3 mb-md-0">
+                                <form method="post" th:action="@{/sepeti-temizle}" class="d-inline">
+                                    <input type="hidden" name="siparisId" th:value="${aktifSepet.siparisId}" />
+                                    <button type="submit" class="btn btn-link text-danger text-decoration-none fw-semibold p-0">
+                                        🗑️ Sepeti Tamamen Temizle
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-md-6 text-md-end">
+                                <div class="d-flex flex-column align-items-md-end">
+                                    <span class="text-muted mb-1">Ödenecek Tutar</span>
+                                    <h2 class="fw-bold text-dark mb-4" th:text="${genelToplam} + ' ₺'">0.00 ₺</h2>
+                                    <button class="btn btn-success btn-lg rounded-pill px-5 shadow fw-bold">Siparişi Tamamla 🚀</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

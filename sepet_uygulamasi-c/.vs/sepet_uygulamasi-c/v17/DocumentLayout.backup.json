@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|c:\\users\\s\u00FCleyman do\u011Fru\\onedrive\\desktop\\db-web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|solutionrelative:sepet_uygulamasi-c\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|c:\\users\\s\u00FCleyman do\u011Fru\\onedrive\\desktop\\db-web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|solutionrelative:sepet_uygulamasi-c\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|c:\\users\\s\u00FCleyman do\u011Fru\\onedrive\\desktop\\db-web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\siparisyonetim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|solutionrelative:sepet_uygulamasi-c\\siparisyonetim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|c:\\users\\s\u00FCleyman do\u011Fru\\onedrive\\desktop\\db-web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\sepetyonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|solutionrelative:sepet_uygulamasi-c\\sepetyonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|c:\\users\\s\u00FCleyman do\u011Fru\\onedrive\\desktop\\db-web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\veritabani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2941E-920F-49A6-9B0B-9125E6181EFD}|sepet_uygulamasi-c\\sepet_uygulamasi-c.csproj|solutionrelative:sepet_uygulamasi-c\\veritabani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\Form1.cs",
+              "RelativeDocumentMoniker": "sepet_uygulamasi-c\\Form1.cs",
+              "ToolTip": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "sepet_uygulamasi-c\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:55:56.413Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SiparisYonetim.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\SiparisYonetim.cs",
+              "RelativeDocumentMoniker": "sepet_uygulamasi-c\\SiparisYonetim.cs",
+              "ToolTip": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\SiparisYonetim.cs",
+              "RelativeToolTip": "sepet_uygulamasi-c\\SiparisYonetim.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:42:05.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SepetYonetici.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\SepetYonetici.cs",
+              "RelativeDocumentMoniker": "sepet_uygulamasi-c\\SepetYonetici.cs",
+              "ToolTip": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\SepetYonetici.cs",
+              "RelativeToolTip": "sepet_uygulamasi-c\\SepetYonetici.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:41:52.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VeriTabani.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\VeriTabani.cs",
+              "RelativeDocumentMoniker": "sepet_uygulamasi-c\\VeriTabani.cs",
+              "ToolTip": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\VeriTabani.cs",
+              "RelativeToolTip": "sepet_uygulamasi-c\\VeriTabani.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:41:36.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\Form1.cs",
+              "RelativeDocumentMoniker": "sepet_uygulamasi-c\\Form1.cs",
+              "ToolTip": "C:\\Users\\S\u00FCleyman Do\u011Fru\\OneDrive\\Desktop\\DB-Web_odev\\sepet_uygulamasi-c\\sepet_uygulamasi-c\\Form1.cs",
+              "RelativeToolTip": "sepet_uygulamasi-c\\Form1.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:40:15.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
